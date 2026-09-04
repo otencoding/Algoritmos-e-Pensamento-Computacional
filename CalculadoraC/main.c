@@ -1,17 +1,12 @@
 #include <stdio.h>
 #include <locale.h>
-
-int soma(int a, int b);
+#include "operacoes.h"
 
 int main()
 {
     setlocale(LC_ALL,"");
-
-    int numero1, numero2;
-    printf("Digite um número: ");
-    scanf("%d", &numero1);
-    printf("Digite outro número: ");
-    scanf("%d", &numero2);
-    printf("%d + %d = %d\n", numero1, numero2, soma(numero1, numero2));
+    double n1 = 10;
+    double n2 = 5;
+    printf("%f - %f = %f", n1, n2, divisao(n1,n2));
     return 0;
 }
