@@ -1,32 +1,35 @@
 #include <stdio.h>
 #include "operacoes.h"
 
-double soma(double a, double b)
+float soma(float a, float b)
 {
     return a+b;
 }
-double subtracao(double a, double b)
+float subtracao(float a, float b)
 {
     return a-b;
 }
-double multiplicacao(double a, double b)
+float multiplicacao(float a, float b)
 {
     return a*b;
 }
-double divisao(double a, double b)
+float divisao(float a, float b)
 {
     if (b==0.0)
     {
         printf("Erro! Divisão por zero!\n");
+        return 0;
     }
-    
+    else
+    {
     return a/b;
+    }
 }
 int resto_divisao(int a, int b)
 {
     return a%b;
 }
-double porcentagem(double total, double percentual)
+float porcentagem(float total, float percentual)
 {
     return(total*percentual)/100.0;
 }

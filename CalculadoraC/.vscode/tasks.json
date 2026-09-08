@@ -1,14 +1,16 @@
 {
+    "version": "2.0.0",
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc.exe compilar todos os arquivos",
-            "command": "C:/msys64/ucrt64/bin/gcc.exe",
+            "label": "C/C++: gcc build active file",
+            "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
             "args": [
                 "-fdiagnostics-color=always",
-                "-g",
-                "${fileDirname}/main.c",
-                 "${fileDirname}/operacoes_basicas.c",
+                "-g3",
+                "-Wall",
+                "-Wextra",
+                "${fileDirname}/*.c",
                 "-o",
                 "${fileDirname}/output/main.exe"
             ],
@@ -22,8 +24,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Tarefa gerada para compilar múltiplos arquivos C com MSYS2."
+            "detail": "Compila todos os arquivos .c do projeto"
         }
-    ],
-    "version": "2.0.0"
+    ]
 }

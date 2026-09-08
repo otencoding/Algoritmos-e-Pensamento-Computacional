@@ -2,27 +2,27 @@
 #include <math.h>
 #include "operacoes.h"
 
-double potencia (double base, double expoente)
+float potencia (float base, float expoente)
 {
     return pow(base, expoente);
 }
-double raiz_quadrada (double a)
+float raiz_quadrada (float a)
 {
     return sqrt(a);
 }
-double valor_absoluto (double a)
+float valor_absoluto (float a)
 {
     return fabs(a);
 }
-double quadrado (double a)
+float quadrado (float a)
 {
     return pow(a, 2);
 }
-double cubo (double a)
+float cubo (float a)
 {
     return pow(a, 3);
 }
-double inverso (double a)
+float inverso (float a)
 {
     if (a==0)
     {
@@ -34,7 +34,7 @@ double inverso (double a)
         return 1.0/a;
     }
 }
-double media_dois (double a, double b)
+float media_dois (float a, float b)
 {
     return (a+b)/2.0;
 }

@@ -1,18 +1,25 @@
 #ifndef OPERACOES
 #define OPERACOES
 
-double soma(double a, double b);
-double subtracao(double a, double b);
-double multiplicacao(double a, double b);
-double divisao(double a, double b);
+float soma(float a, float b);
+float subtracao(float a, float b);
+float multiplicacao(float a, float b);
+float divisao(float a, float b);
 int resto_divisao(int a, int b);
-double porcentagem(double total, double percentual);
-double potencia(double base, double expoente);
-double raiz_quadrada(double a);
-double valor_absoluto(double a);
-double quadrado(double a);
-double cubo(double a);
-double inverso(double a);
-double media_dois(double a, double b);
+float porcentagem(float total, float percentual);
+float potencia(float base, float expoente);
+float raiz_quadrada(float a);
+float valor_absoluto(float a);
+float quadrado(float a);
+float cubo(float a);
+float inverso(float a);
+float media_dois(float a, float b);
+float seno(float angulo_graus);
+float cosseno (float angulo_graus);
+float tangente (float angulo_graus);
+float logaritmo_base10 (float a);
+float logaritmo_natural (float a);
+float arredondar_cima (float a);
+float arredondar_baixo (float a);
 
 #endif

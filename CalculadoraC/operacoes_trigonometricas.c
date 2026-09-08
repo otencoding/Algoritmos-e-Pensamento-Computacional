@@ -2,51 +2,53 @@
 #include <math.h>
 #include "operacoes.h"
 
-double seno (double angulo_graus)
+float seno (float angulo_graus)
 {
-    double angulo_radianos;
+    float angulo_radianos;
     angulo_radianos = angulo_graus * ( 3.14159265 / 180.0);
     return sin(angulo_radianos);
 }
-double cosseno (double angulo_graus)
+float cosseno (float angulo_graus)
 {
-    double angulo_radianos;
+    float angulo_radianos;
     angulo_radianos = angulo_graus * ( 3.14159265 / 180.0);
     return cos(angulo_radianos);
 }
-double tangente (double angulo_graus)
+float tangente (float angulo_graus)
 {
-    double angulo_radianos;
+    float angulo_radianos;
     angulo_radianos = angulo_graus * ( 3.14159265 / 180.0);
     return tan(angulo_radianos);
 }
-double logaritmo_base10 (double a)
+float logaritmo_base10 (float a)
 {
     if (a <= 0)
     {
         printf("Erro! Log de zero ou negativo.");
+        return 0;
     }
     else
     {
     return log10(a);
     }
 }
-double logaritmo_natural (double a)
+float logaritmo_natural (float a)
 {
     if (a <= 0)
     {
         printf("Erro! Log de zero ou negativo.");
+        return 0;
     }
     else
     {
     return log(a);
     }
 }
-double arredondar_cima (double a)
+float arredondar_cima (float a)
 {
     return ceil(a);
 }
-double arredondar_baixo (double a)
+float arredondar_baixo (float a)
 {
     return floor(a);
 }
