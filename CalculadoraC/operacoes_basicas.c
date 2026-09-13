@@ -15,7 +15,7 @@ float multiplicacao(float a, float b)
 }
 float divisao(float a, float b)
 {
-    if (b==0.0)
+    if (b==0.0) //Tratamento de erro.
     {
         printf("Erro! Divisão por zero!\n");
         return 0;

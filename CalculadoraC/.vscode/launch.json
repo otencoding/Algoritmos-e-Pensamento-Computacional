@@ -20,7 +20,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: gcc.exe compilar todos os arquivos"
+            "preLaunchTask": "C/C++: gcc build active file"
         }
     ]
 }

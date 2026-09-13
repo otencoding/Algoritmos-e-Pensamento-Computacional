@@ -24,7 +24,7 @@ float cubo (float a)
 }
 float inverso (float a)
 {
-    if (a==0)
+    if (a==0) //Tratamento de erro.
     {
         printf("Erro! Divisão por zero!\n");
         return 0;
