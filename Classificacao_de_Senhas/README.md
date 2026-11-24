@@ -6,7 +6,7 @@ Trabalho em linguagem C que simula a triagem de uma clínica: cadastra pacientes
 
 - `main.c` – menu principal
 - `operacoes.h` – struct `Senha` e declaração das funções
-- `soma.c` – implementação das funções (cadastro, classificação, filas, atendimento e painel)
+- `funcoes.c` – implementação das funções (cadastro, classificação, filas, atendimento e painel)
 
 ## Como compilar e executar
 
