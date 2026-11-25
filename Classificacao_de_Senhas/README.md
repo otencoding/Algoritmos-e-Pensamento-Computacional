@@ -11,7 +11,7 @@ Trabalho em linguagem C que simula a triagem de uma clínica: cadastra pacientes
 ## Como compilar e executar
 
 ```
-gcc main.c soma.c -o output/main
+gcc main.c funcoes.c -o output/main
 ./output/main
 ```
 
